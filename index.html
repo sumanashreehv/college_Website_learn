@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="C:\Suman\HTML\Projects\web_1\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <!--This the header section of Webpage-->
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!--This the main text of web page-->
+        <div class="text-box">
+            <h1>World's best University</h1>
+            <p>It is one of the leading University of India. With various large campus and largest number of subject to
+                <br>choose from will make this University different from rest. Students are born to make their country
+                proud.
+            </p>
+            <a href="about.html" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+
+
+    <!--Course section-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Electrical and Electronics, Electrical and Telecommunication are few courses we offer with good eduction and
+            exposure to Market.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Diploma Program</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum incidunt, quaerat nemo facere
+                    at dolorem deleniti rerum tempora perferendis blanditiis repudiandae quibusdam magnam ratione
+                    consequuntur minima nobis ea praesentium!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Graduation Program</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perferendis placeat sapiente
+                    voluptatum eaque eum accusantium molestias blanditiis iste cum molestiae tempora debitis omnis
+                    provident soluta amet recusandae, earum incidunt.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation Program</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, earum quae molestias ipsum tenetur
+                    esse iusto minima dolorum totam beatae cum saepe in deserunt assumenda illo, reiciendis officia quia
+                    exercitationem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Campus-->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img class="campus-img" src="images/london.png">
+                <div class="campus-layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img class="campus-img" src="images/newyork.png">
+                <div class="campus-layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+
+
+            <div class="campus-col">
+                <img class="campus-img" src="images/washington.png">
+                <div class="campus-layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img class="campus-img" src="images/london.png">
+                <div class="campus-layer">
+                    <h3>BENGALURU</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------Facilities----------- -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, deleniti? Corporis nam, unde ab eos
+            ducimus,asperiores animi aliquid culpa quaerat ullam ex.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, libero. Reiciendis.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>World Class Sports Areana</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, libero. Reiciendis.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Health is Wealth</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, libero. Reiciendis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----Testimonials----- -->
+    <section class="testimonials">
+        <h1>Experience of Students</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cupiditate beatae consectetur error nihil
+            numquam asperiores reiciendis.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quae quisquam beatae corporis
+                        delectus, et, quis eaque, veritatis.</p>
+                    <h3>Abhighna</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quae quisquam beatae corporis
+                        delectus, et, quis eaque, veritatis.</p>
+                    <h3>Ananya</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------Call to Action------------ -->
+    <section class="cta">
+        <h1>Enroll for our online classes <br>anywhere from world</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+    <!-- ----Footer----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eos <br>libero deleniti obcaecati
+            architecto,
+            suscipit </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-telegram"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made with <i class="fa fa-circle"></i> by Sumanashree</p>
+    </section>
+
+    <!--To toggle the menu bar for small screen-->
+    <script>
+        var navLinks = document.getElementById("navLink");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
